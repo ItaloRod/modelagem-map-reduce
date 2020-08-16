@@ -3,7 +3,6 @@ from mrjob.job import MRJob
 class FriendsByAge(MRJob):
     def mapper(self, _, line):
         user, name, age, amount = line.split(',')
-        
         # 18-30, 31-45, 46-69
 
         age = int(age)

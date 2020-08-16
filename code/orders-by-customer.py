@@ -3,7 +3,6 @@ from mrjob.job import MRJob
 class OrdersByCustomer(MRJob):
     def mapper(self, _, line):
         user, _, value = line.split(',')
-        
         yield int(user), float(value)
 
     def reducer(self, key, values):
