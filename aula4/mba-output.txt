@@ -1,0 +1,13 @@
+[" Belt", " Jacket"]	1
+[" Belt", " Sneakers"]	3
+[" Belt", " Trousers"]	2
+[" Belt", "T-shirt"]	2
+[" Belt", "Trousers"]	2
+[" Gloves", "Jacket"]	1
+[" Jacket", " Sneakers"]	1
+[" Jacket", " Trousers"]	2
+[" Jacket", "T-shirt"]	3
+[" Sneakers", " Trousers"]	1
+[" Sneakers", "T-shirt"]	1
+[" Sneakers", "Trousers"]	2
+[" Trousers", "T-shirt"]	3
